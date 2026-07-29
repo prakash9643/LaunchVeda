@@ -14,7 +14,7 @@ export default function Home() {
           logo: "https://launchveda.com/logo-full.png",
           description: "Premium product launch platform for Perfume, Ayurveda, Cosmetic, and Nutraceutical brands.",
           email: "support@launchveda.com",
-          telephone: "+918796300199",
+          telephone: "+919266983622",
           addressCountry: "IN",
           sameAs: [
             "https://www.facebook.com/people/LaunchVeda-Indias-Best-Product-Launch-Solution/61590478586919/",
