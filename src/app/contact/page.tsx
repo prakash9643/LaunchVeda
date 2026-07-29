@@ -345,7 +345,7 @@ export default function ContactPage() {
 									</p>
 								</div>
 								<p className="text-[#07152B] font-[900] text-lg select-all">
-									+91-8796300199
+									+91-8796311099
 								</p>
 							</div>
 							<a
