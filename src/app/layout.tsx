@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../index.css";
 import FAQSchemaDetector from "../components/FAQSchemaDetector";
 import ScrollToTop from "../components/ui/ScrollToTop";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
 	title: {
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 		template: "%s | LaunchVeda",
 	},
 	description:
-		"LaunchVeda is India’s No.1 Product Launch Company helping founders launch Perfume, Cosmetic, Ayurveda, and Nutraceutical brands with formulation, manufacturing, branding, compliance, website, marketplace listing, and advanced growth marketing support.",
+		"LaunchVeda is India's No.1 Product Launch Company helping founders launch Perfume, Cosmetic, Ayurveda, and Nutraceutical brands with formulation, manufacturing, branding, compliance, website, marketplace listing, and advanced growth marketing support.",
 	openGraph: {
 		title: "LaunchVeda | India's No.1 Product Launch Ecosystem",
 		description:
@@ -79,6 +80,7 @@ export default function RootLayout({
 
 				<FAQSchemaDetector />
 				<ScrollToTop />
+				<Analytics />
 			</body>
 		</html>
 	);
