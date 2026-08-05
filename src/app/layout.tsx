@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 	description:
 		"LaunchVeda is India’s No.1 Product Launch Company helping founders launch Perfume, Cosmetic, Ayurveda, and Nutraceutical brands with formulation, manufacturing, branding, compliance, website, marketplace listing, and advanced growth marketing support.",
 	openGraph: {
-		title: "LaunchVeda | India's No.1 Product Launch Ecosystem",
+		title: "LaunchVeda | Turn Ideas Into Brands: Perfume, Cosmetic & Nutraceutical Launch Partner",
 		description:
 			"Launch your Perfume, Ayurveda, Cosmetic, or Nutraceutical brand with our complete ecosystem.",
 		url: "https://launchveda.com",
