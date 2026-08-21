@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../index.css";
 import FAQSchemaDetector from "../components/FAQSchemaDetector";
 import ScrollToTop from "../components/ui/ScrollToTop";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
 	title: {
@@ -79,6 +80,7 @@ export default function RootLayout({
 
 				<FAQSchemaDetector />
 				<ScrollToTop />
+				<Analytics />
 			</body>
 		</html>
 	);
