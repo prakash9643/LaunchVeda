@@ -66,11 +66,12 @@ export default function Navbar() {
 	};
 
 	const navLinks = [
-		{ name: "Home", href: "/" },
+		// { name: "Home", href: "/" },
 		{ name: "Services", href: "/services" },
 		{ name: "Categories", href: "/#category-explore-section" },
 		{ name: "Process", href: "/process" },
 		{ name: "About Us", href: "/about" },
+		{ name: "Blog", href: "/blog" },
 		{ name: "Contact", href: "/contact" },
 	];
 

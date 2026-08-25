@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { blogPosts } from "../src/app/blog/blogData";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -48,7 +49,10 @@ function generateSitemap() {
   console.log(`App directory: ${APP_DIR}`);
   console.log(`Public directory: ${PUBLIC_DIR}`);
   
-  const rawRoutes = getPageRoutes(APP_DIR);
+  const rawRoutes = [
+    ...getPageRoutes(APP_DIR),
+    ...blogPosts.map((post) => `blog/${post.slug}`),
+  ];
   // Ensure we sort routes and filter out duplicates and empty/redundant parts
   const routes = Array.from(new Set(rawRoutes))
     .map(r => r.trim())

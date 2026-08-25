@@ -3,6 +3,12 @@ import "../index.css";
 import FAQSchemaDetector from "../components/FAQSchemaDetector";
 import ScrollToTop from "../components/ui/ScrollToTop";
 
+declare global {
+	interface Window {
+		dataLayer: unknown[];
+	}
+}
+
 export const metadata: Metadata = {
 	title: {
 		default: "LaunchVeda | India's No.1 Product Launch Ecosystem",
@@ -64,14 +70,17 @@ export default function RootLayout({
 					fetchPriority="high"
 					media="(min-width: 640px)"
 				/>
-				<script async src="https://www.googletagmanager.com/gtag/js?id=G-0FJLK8NJ6E"></script>
-				<script>
-				  window.dataLayer = window.dataLayer || [];
-				  function gtag(){dataLayer.push(arguments);}
-				  gtag('js', new Date());
-				
-				  gtag('config', 'G-0FJLK8NJ6E');
-				</script>
+				{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FJLK8NJ6E"></script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-0FJLK8NJ6E');
+            `,
+					}}
+				/> */}
 			</head>
 			<body className="antialiased">
 				<noscript>
