@@ -531,6 +531,7 @@ export const LaunchFooterSection: React.FC = () => {
 							<ul className="space-y-3.5">
 								{[
 									{ label: "About", href: "/about" },
+									{ label: "Careers", href: "/careers" },
 									{
 										label: "Process",
 										href: "/process",

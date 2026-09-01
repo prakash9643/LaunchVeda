@@ -71,6 +71,7 @@ export default function Navbar() {
 		{ name: "Categories", href: "/#category-explore-section" },
 		{ name: "Process", href: "/process" },
 		{ name: "About Us", href: "/about" },
+		{ name: "Founder", href: "/founder/rajnish-kumar" },
 		{ name: "Blog", href: "/blog" },
 		{ name: "Contact", href: "/contact" },
 	];

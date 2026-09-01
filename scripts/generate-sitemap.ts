@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { blogPosts } from "../src/app/blog/blogData";
+import { jobs } from "../src/app/careers/jobsData";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -52,6 +53,7 @@ function generateSitemap() {
   const rawRoutes = [
     ...getPageRoutes(APP_DIR),
     ...blogPosts.map((post) => `blog/${post.slug}`),
+    ...jobs.map((job) => `careers/${job.slug}`),
   ];
   // Ensure we sort routes and filter out duplicates and empty/redundant parts
   const routes = Array.from(new Set(rawRoutes))

@@ -270,6 +270,157 @@ button,
   }
 }
 
+/* Founder profile: a quieter version of the moving ambient background used on About. */
+@keyframes founder-aurora-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate3d(-7%, 6%, 0) scale(1.12);
+  }
+}
+
+@keyframes founder-aurora-drift-reverse {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.04);
+  }
+
+  50% {
+    transform: translate3d(8%, -7%, 0) scale(0.94);
+  }
+}
+
+@keyframes founder-grid-drift {
+  from {
+    background-position: 0 0, 0 0;
+  }
+
+  to {
+    background-position: 72px 72px, 72px 72px;
+  }
+}
+
+@keyframes founder-orbit-turn {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.founder-aurora-primary {
+  animation: founder-aurora-drift 18s ease-in-out infinite;
+  will-change: transform;
+}
+
+.founder-aurora-secondary {
+  animation: founder-aurora-drift-reverse 22s ease-in-out infinite;
+  will-change: transform;
+}
+
+.founder-grid-drift {
+  animation: founder-grid-drift 34s linear infinite;
+}
+
+.founder-orbit-turn {
+  animation: founder-orbit-turn 40s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .founder-aurora-primary,
+  .founder-aurora-secondary,
+  .founder-grid-drift,
+  .founder-orbit-turn {
+    animation: none;
+  }
+}
+
+/* Careers uses the same restrained ambient motion language without animating content. */
+@keyframes career-aurora-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate3d(-6%, 7%, 0) scale(1.1);
+  }
+}
+
+@keyframes career-aurora-drift-reverse {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.04);
+  }
+
+  50% {
+    transform: translate3d(7%, -6%, 0) scale(0.94);
+  }
+}
+
+@keyframes career-aurora-center {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    transform: translate(-47%, -54%) scale(1.1);
+  }
+}
+
+@keyframes career-grid-drift {
+  from {
+    background-position: 0 0, 0 0;
+  }
+
+  to {
+    background-position: 66px 66px, 66px 66px;
+  }
+}
+
+@keyframes career-orbit-turn {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.career-aurora-one {
+  animation: career-aurora-drift 20s ease-in-out infinite;
+  will-change: transform;
+}
+
+.career-aurora-two {
+  animation: career-aurora-drift-reverse 24s ease-in-out infinite;
+  will-change: transform;
+}
+
+.career-aurora-center {
+  animation: career-aurora-center 22s ease-in-out infinite;
+  will-change: transform;
+}
+
+.career-grid-drift {
+  animation: career-grid-drift 38s linear infinite;
+}
+
+.career-orbit-turn {
+  animation: career-orbit-turn 42s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .career-aurora-one,
+  .career-aurora-two,
+  .career-aurora-center,
+  .career-grid-drift,
+  .career-orbit-turn {
+    animation: none;
+  }
+}
+
 /* Default hide the override view on normal screens */
 #main-content-viewport-override {
   display: none !important;
