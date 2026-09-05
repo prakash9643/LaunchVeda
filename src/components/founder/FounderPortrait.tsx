@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Sparkles } from "lucide-react";
 
-const FOUNDER_PHOTO = "/founder-rajnish-kumar.webp";
+const FOUNDER_PHOTO = "/founder.jpeg";
 
 export default function FounderPortrait() {
   const [imageUnavailable, setImageUnavailable] = useState(false);
