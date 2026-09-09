@@ -56,12 +56,12 @@ export default function RajnishKumarPage() {
       <SEOManager
         title="Rajnish Kumar, Founder of LaunchVeda"
         description="Meet Rajnish Kumar, founder of LaunchVeda. After 10 years across product development, manufacturing, branding and sales, he helps founders build brands that last."
-        canonical="https://launchveda.com/founder/rajnish-kumar"
-        ogImage="https://launchveda.com/brand-concept.webp"
+        canonical="https://www.launchveda.com/founder/rajnish-kumar"
+        ogImage="https://www.launchveda.com/brand-concept.webp"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Founder", item: "https://launchveda.com/founder/rajnish-kumar" },
-          { name: "Rajnish Kumar", item: "https://launchveda.com/founder/rajnish-kumar" },
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Founder", item: "https://www.launchveda.com/founder/rajnish-kumar" },
+          { name: "Rajnish Kumar", item: "https://www.launchveda.com/founder/rajnish-kumar" },
         ]}
         customSchemas={[
           {
@@ -69,8 +69,8 @@ export default function RajnishKumarPage() {
             "@type": "Person",
             name: "Rajnish Kumar",
             jobTitle: "Founder",
-            worksFor: { "@type": "Organization", name: "LaunchVeda", url: "https://launchveda.com" },
-            url: "https://launchveda.com/founder/rajnish-kumar",
+            worksFor: { "@type": "Organization", name: "LaunchVeda", url: "https://www.launchveda.com" },
+            url: "https://www.launchveda.com/founder/rajnish-kumar",
             description: "Founder of LaunchVeda with 10 years of experience across product development, manufacturing, branding and sales.",
           },
         ]}

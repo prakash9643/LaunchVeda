@@ -7,10 +7,10 @@ export default function Page() {
       <SEOManager
         title="Product Launch Services in India | Launch Veda"
         description="Explore Launch Veda’s product launch services for formulation, manufacturer selection, packaging, compliance, branding, website, marketplace listing, and marketing."
-        canonical="https://launchveda.com/services"
+        canonical="https://www.launchveda.com/services"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Services", item: "https://launchveda.com/services" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Services", item: "https://www.launchveda.com/services" }
         ]}
         service={{
           name: "Product Launch System Services",

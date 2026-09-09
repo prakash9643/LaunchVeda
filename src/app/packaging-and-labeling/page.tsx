@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="Packaging & Labeling"
         description="Premium packaging and compliant labeling design for your brand."
-        canonical="https://launchveda.com/packaging-and-labeling"
+        canonical="https://www.launchveda.com/services/packaging-and-labeling"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Packaging & Labeling", item: "https://launchveda.com/packaging-and-labeling" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Packaging & Labeling", item: "https://www.launchveda.com/services/packaging-and-labeling" }
         ]}
         service={{
           name: "Packaging & Labeling",

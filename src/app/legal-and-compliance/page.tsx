@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="Legal & Compliance"
         description="Complete legal and compliance support for Indian market product launches."
-        canonical="https://launchveda.com/legal-and-compliance"
+        canonical="https://www.launchveda.com/services/legal-and-compliance"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Legal & Compliance", item: "https://launchveda.com/legal-and-compliance" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Legal & Compliance", item: "https://www.launchveda.com/services/legal-and-compliance" }
         ]}
         service={{
           name: "Legal & Compliance",

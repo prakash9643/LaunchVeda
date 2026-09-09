@@ -180,12 +180,12 @@ export default function ContactPage() {
 			<SEOManager
 				title="Contact Launch Veda | India’s No.1 Product Launch Company"
 				description="Contact Launch Veda for end-to-end product launch support in India. Get expert guidance for Perfume, Cosmetic, Ayurveda, and Nutraceutical brand launches."
-				canonical="https://launchveda.com/contact"
+				canonical="https://www.launchveda.com/contact"
 				breadcrumb={[
-					{ name: "Home", item: "https://launchveda.com" },
+					{ name: "Home", item: "https://www.launchveda.com" },
 					{
 						name: "Contact",
-						item: "https://launchveda.com/contact",
+						item: "https://www.launchveda.com/contact",
 					},
 				]}
 			/>
@@ -416,7 +416,7 @@ export default function ContactPage() {
 								</p>
 							</div>
 							<a
-								href="https://maps.app.goo.gl/GHhdqJZHcLLQa3R37"
+								href="https://maps.app.goo.gl/nMU5vHVqF1EPAZXU8"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="w-full h-11 rounded-lg border border-slate-200 bg-white hover:border-orange-300 text-slate-700 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 mt-6 transition-all cursor-pointer shadow-sm"

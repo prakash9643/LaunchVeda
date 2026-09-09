@@ -21,22 +21,24 @@ const faqs = [
 ];
 
 export default function BlogArticlePage({ post }: { post: BlogPost }) {
+  const hasStructuredContent = Boolean(post.sections?.length);
+
   return (
     <div className="bg-[#fbfaf7] min-h-screen flex flex-col text-[#17233f]">
       <SEOManager
         title={post.title}
         description={post.excerpt}
-        canonical={`https://launchveda.com/blog/${post.slug}`}
-        ogImage={`https://launchveda.com${post.image}`}
+        canonical={`https://www.launchveda.com/blog/${post.slug}`}
+        ogImage={`https://www.launchveda.com${post.image}`}
         ogType="article"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Blog", item: "https://launchveda.com/blog" },
-          { name: post.title, item: `https://launchveda.com/blog/${post.slug}` }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Blog", item: "https://www.launchveda.com/blog" },
+          { name: post.title, item: `https://www.launchveda.com/blog/${post.slug}` }
         ]}
         article={{
           headline: post.title,
-          image: `https://launchveda.com${post.image}`,
+          image: `https://www.launchveda.com${post.image}`,
           datePublished: post.datePublished,
           dateModified: post.datePublished,
           description: post.excerpt,
@@ -61,10 +63,30 @@ export default function BlogArticlePage({ post }: { post: BlogPost }) {
         <div className="max-w-[1180px] mx-auto px-4 sm:px-8 py-12 sm:py-20 grid lg:grid-cols-[220px_minmax(0,680px)_240px] gap-10 lg:gap-14">
           <aside className="lg:sticky lg:top-28 lg:self-start order-2 lg:order-1">
             <p className="text-xs uppercase tracking-[0.2em] text-indigo-600 font-semibold mb-4">In this article</p>
-            <nav className="space-y-3 text-sm text-slate-500 border-l border-slate-200 pl-4"><a href="#market" className="block hover:text-indigo-600">The market in 2026</a><a href="#positioning" className="block hover:text-indigo-600">Find your reason to exist</a><a href="#launch" className="block hover:text-indigo-600">Build the launch system</a><a href="#mistake" className="block hover:text-indigo-600">The biggest mistake</a></nav>
+            <nav className="space-y-3 text-sm text-slate-500 border-l border-slate-200 pl-4">
+              {hasStructuredContent ? post.sections?.map((section) => <a key={section.id} href={`#${section.id}`} className="block hover:text-indigo-600">{section.heading}</a>) : <><a href="#market" className="block hover:text-indigo-600">The market in 2026</a><a href="#positioning" className="block hover:text-indigo-600">Find your reason to exist</a><a href="#launch" className="block hover:text-indigo-600">Build the launch system</a><a href="#mistake" className="block hover:text-indigo-600">The biggest mistake</a></>}
+            </nav>
           </aside>
 
           <article className="order-1 lg:order-2 max-w-none prose prose-slate prose-headings:text-[#17233f] prose-headings:font-semibold prose-p:text-[1.08rem] prose-p:leading-[1.85] prose-p:text-slate-600 prose-strong:text-[#17233f]">
+            {hasStructuredContent ? (
+              <>
+                <p className="text-xl sm:text-2xl leading-relaxed text-[#17233f]">In 2026, launching a product is easier than ever. Building a brand that is compliant, differentiated and ready for the marketplace remains the real challenge.</p>
+                <p><strong>LaunchVeda</strong> helps founders connect product development, manufacturing, product packaging, compliance, branding, e-commerce and business growth through a structured product launch roadmap.</p>
+                {post.sections?.map((section) => (
+                  <section key={section.id} id={section.id} className="scroll-mt-28">
+                    <h2>{section.heading}</h2>
+                    {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                    {section.items && (
+                      <ul>
+                        {section.items.map((item) => <li key={item}>{item}</li>)}
+                      </ul>
+                    )}
+                  </section>
+                ))}
+              </>
+            ) : (
+              <>
             <p className="text-xl sm:text-2xl leading-relaxed text-[#17233f]">The <strong>perfume market in India</strong> is changing fast. Deodorants and a few luxury names once dominated the space. Today, <strong>D2C perfume brands</strong>, Indian fragrance labels and younger consumers are reshaping demand for EDPs and long-lasting perfumes.</p>
             <div id="market" className="not-prose grid sm:grid-cols-2 gap-4 my-10"><div className="bg-[#061033] text-white rounded-2xl p-6"><p className="text-orange-300 text-xs uppercase tracking-[0.18em] mb-3">Market size, 2025</p><p className="text-4xl font-semibold">USD 1.25B</p><p className="text-sm text-slate-300 mt-2">India’s estimated perfume market</p></div><div className="bg-orange-50 border border-orange-100 rounded-2xl p-6"><p className="text-[#d71912] text-xs uppercase tracking-[0.18em] mb-3">Projected by 2034</p><p className="text-4xl font-semibold text-[#17233f]">~USD 2B</p><p className="text-sm text-slate-600 mt-2">A category opening new room for brands</p></div></div>
             <p>In 2026, the ₹1,500–₹4,000 segment is gaining attention as Gen Z consumers move from deodorants toward premium perfumes. But growth alone is not a reason to launch “just another perfume.”</p>
@@ -83,6 +105,8 @@ export default function BlogArticlePage({ post }: { post: BlogPost }) {
             <h2>Frequently asked questions</h2>
             <div className="not-prose space-y-3">{faqs.map((faq) => <details key={faq.q} className="group border-b border-slate-200 py-4"><summary className="cursor-pointer list-none pr-8 font-semibold text-[#17233f] group-open:text-indigo-600">{faq.q}</summary><p className="text-sm leading-7 text-slate-600 mt-3">{faq.a}</p></details>)}</div>
             <p className="text-xl sm:text-2xl text-[#17233f] mt-12">Your idea can become a perfume. The bigger opportunity is turning it into a brand.</p>
+              </>
+            )}
           </article>
 
           <aside className="order-3 lg:sticky lg:top-28 lg:self-start"><div className="bg-[#f0eee8] rounded-2xl p-6 border border-[#e3dfd4]"><p className="text-xs uppercase tracking-[0.18em] text-indigo-600 font-semibold mb-3">For founders</p><h2 className="text-xl font-semibold text-[#17233f] leading-tight">Turn fragrance into a market-ready brand.</h2><p className="text-sm leading-6 text-slate-600 mt-3">Get a practical roadmap across product, packaging, compliance and growth.</p><a href="/contact" className="mt-5 flex items-center justify-center gap-2 rounded-xl bg-indigo-600 text-white px-4 py-3 text-sm font-semibold hover:bg-indigo-700 transition-colors">Start a conversation <ArrowUpRight className="w-4 h-4" /></a></div></aside>

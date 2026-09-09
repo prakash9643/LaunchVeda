@@ -30,12 +30,12 @@ export default function Page() {
 			<SEOManager
 				title="Our Process | LaunchVeda Product Launch System"
 				description="Explore LaunchVeda’s structured product launch process from category strategy, formulation and manufacturing support to packaging, compliance, marketplace launch and advanced growth."
-				canonical="https://launchveda.com/process"
+				canonical="https://www.launchveda.com/process"
 				breadcrumb={[
-					{ name: "Home", item: "https://launchveda.com" },
+					{ name: "Home", item: "https://www.launchveda.com" },
 					{
 						name: "Process",
-						item: "https://launchveda.com/process",
+						item: "https://www.launchveda.com/process",
 					},
 				]}
 				service={{

@@ -223,7 +223,7 @@ export default function ServicesClientPage() {
 			textColor: "text-[#0F172A]",
 			descColor: "text-slate-700",
 			pillClass: "bg-white text-[#9A3412] border border-[#FED7AA]",
-			href: "/packaging-and-labeling",
+			href: "/services/packaging-and-labeling",
 		},
 		{
 			icon: ShieldCheck,
@@ -244,7 +244,7 @@ export default function ServicesClientPage() {
 			textColor: "text-[#0F172A]",
 			descColor: "text-slate-700",
 			pillClass: "bg-white text-[#115E59] border border-[#99F6E4]",
-			href: "/legal-and-compliance",
+			href: "/services/legal-and-compliance",
 		},
 		{
 			icon: Globe,
@@ -265,7 +265,7 @@ export default function ServicesClientPage() {
 			textColor: "text-[#0F172A]",
 			descColor: "text-slate-700",
 			pillClass: "bg-white text-[#3730A3] border border-[#C7D2FE]",
-			href: "/website-development",
+			href: "/services/website-development",
 		},
 		{
 			icon: ShoppingBag,
@@ -286,7 +286,7 @@ export default function ServicesClientPage() {
 			textColor: "text-[#0F172A]",
 			descColor: "text-slate-700",
 			pillClass: "bg-white text-[#9D174D] border border-[#FBCFE8]",
-			href: "/marketplace-launch",
+			href: "/services/marketplace-launch",
 		},
 		{
 			icon: Share2,
@@ -302,7 +302,7 @@ export default function ServicesClientPage() {
 			textColor: "text-[#0F172A]",
 			descColor: "text-slate-700",
 			pillClass: "bg-white text-[#155E75] border border-[#AED9E0]",
-			href: "/ai-growth-and-marketing",
+			href: "/services/ai-growth-and-marketing",
 		},
 		{
 			icon: TrendingUp,
@@ -323,7 +323,7 @@ export default function ServicesClientPage() {
 			textColor: "text-[#0F172A]",
 			descColor: "text-slate-700",
 			pillClass: "bg-white text-[#9B2C2C] border border-[#FED7D7]",
-			href: "/ai-growth-and-marketing",
+			href: "/services/ai-growth-and-marketing",
 		},
 		{
 			icon: Sparkles,
@@ -344,7 +344,7 @@ export default function ServicesClientPage() {
 			textColor: "text-[#0F172A]",
 			descColor: "text-slate-700",
 			pillClass: "bg-white text-[#86198F] border border-[#F5D0FE]",
-			href: "/ai-growth-and-marketing",
+			href: "/services/ai-growth-and-marketing",
 		},
 	];
 
@@ -359,6 +359,7 @@ export default function ServicesClientPage() {
 			borderColor: "border-2 border-[#93C5FD] hover:border-[#0284C7]",
 			iconColor: "text-sky-600 bg-white border border-sky-200",
 			btnColor: "text-sky-700 hover:text-sky-800",
+			href: "/perfume-brand-launch",
 		},
 		{
 			title: "Ayurveda Brand Launch",
@@ -369,6 +370,7 @@ export default function ServicesClientPage() {
 			borderColor: "border-2 border-[#6EE7B7] hover:border-[#059669]",
 			iconColor: "text-emerald-600 bg-white border border-emerald-200",
 			btnColor: "text-emerald-700 hover:text-emerald-800",
+			href: "/ayurveda-brand-launch",
 		},
 		{
 			title: "Cosmetic Brand Launch",
@@ -379,6 +381,7 @@ export default function ServicesClientPage() {
 			borderColor: "border-2 border-[#F472B6] hover:border-[#DB2777]",
 			iconColor: "text-pink-600 bg-white border border-pink-200",
 			btnColor: "text-pink-700 hover:text-pink-800",
+			href: "/cosmetic-brand-launch",
 		},
 		{
 			title: "Nutraceutical Brand Launch",
@@ -389,6 +392,7 @@ export default function ServicesClientPage() {
 			borderColor: "border-2 border-[#FCD34D] hover:border-[#D97706]",
 			iconColor: "text-amber-600 bg-white border border-amber-200",
 			btnColor: "text-amber-700 hover:text-amber-800",
+			href: "/nutraceutical-brand-launch",
 		},
 	];
 
@@ -979,7 +983,7 @@ export default function ServicesClientPage() {
 									</div>
 
 									<Link
-										href="/contact"
+										href={cat.href}
 										className={`inline-flex items-center text-xs font-extrabold ${cat.btnColor} mt-4 group`}
 									>
 										Launch this category

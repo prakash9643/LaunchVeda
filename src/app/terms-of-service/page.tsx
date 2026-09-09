@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 	description:
 		"Launch Veda terms of service, licensing agreements, co-founding framework, product formulation, regulatory approvals, supply chain and digital store handover terms.",
 	alternates: {
-		canonical: "https://launchveda.com/terms-of-service",
+		canonical: "https://www.launchveda.com/terms-of-service",
 	},
 };
 

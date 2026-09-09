@@ -6,7 +6,7 @@ LaunchVeda helps founders turn product ideas into market-ready brands in India. 
 
 - Name: LaunchVeda
 - Legal context: A unit of Banega Brand Co.
-- Website: https://launchveda.com
+- Website: https://www.launchveda.com
 - Country served: India
 - Email: support@launchveda.com
 - Phone: +91 87963 00199
@@ -18,24 +18,24 @@ LaunchVeda is an end-to-end product launch partner for founders building Perfume
 
 ## Core Services
 
-- Brand strategy and positioning: https://launchveda.com/services/brand-strategy
-- Product formulation direction: https://launchveda.com/services/product-formulation
-- Manufacturing support: https://launchveda.com/services/manufacturing-support
-- Packaging and labeling: https://launchveda.com/packaging-and-labeling
-- Legal and compliance direction: https://launchveda.com/legal-and-compliance
-- Marketplace launch: https://launchveda.com/marketplace-launch
-- Website development: https://launchveda.com/website-development
-- Growth and marketing: https://launchveda.com/growth-and-marketing
-- Complete services overview: https://launchveda.com/services
-- Launch process: https://launchveda.com/process
-- Contact: https://launchveda.com/contact
+- Brand strategy and positioning: https://www.launchveda.com/services/brand-strategy
+- Product formulation direction: https://www.launchveda.com/services/product-formulation
+- Manufacturing support: https://www.launchveda.com/services/manufacturing-support
+- Packaging and labeling: https://www.launchveda.com/services/packaging-and-labeling
+- Legal and compliance direction: https://www.launchveda.com/services/legal-and-compliance
+- Marketplace launch: https://www.launchveda.com/services/marketplace-launch
+- Website development: https://www.launchveda.com/services/website-development
+- Growth and marketing: https://www.launchveda.com/services/growth-and-marketing
+- Complete services overview: https://www.launchveda.com/services
+- Launch process: https://www.launchveda.com/process
+- Contact: https://www.launchveda.com/contact
 
 ## Category Launch Pages
 
-- Perfume brand launch: https://launchveda.com/perfume-brand-launch
-- Ayurveda brand launch: https://launchveda.com/ayurveda-brand-launch
-- Cosmetic brand launch: https://launchveda.com/cosmetic-brand-launch
-- Nutraceutical brand launch: https://launchveda.com/nutraceutical-brand-launch
+- Perfume brand launch: https://www.launchveda.com/perfume-brand-launch
+- Ayurveda brand launch: https://www.launchveda.com/ayurveda-brand-launch
+- Cosmetic brand launch: https://www.launchveda.com/cosmetic-brand-launch
+- Nutraceutical brand launch: https://www.launchveda.com/nutraceutical-brand-launch
 
 ## Common Questions
 

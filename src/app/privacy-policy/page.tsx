@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 	description:
 		"LaunchVeda privacy policy, CDSCO and FSSAI regulatory disclosures, data protection principles, laboratory confidentiality, cookies, analytics and jurisdiction information.",
 	alternates: {
-		canonical: "https://launchveda.com/privacy-policy",
+		canonical: "https://www.launchveda.com/privacy-policy",
 	},
 };
 

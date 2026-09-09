@@ -637,12 +637,12 @@ export const LaunchFooterSection: React.FC = () => {
 						"@graph": [
 							{
 								"@type": "Organization",
-								"@id": "https://launchveda.com/#organization",
+								"@id": "https://www.launchveda.com/#organization",
 								name: "LaunchVeda",
 								legalName:
 									"LaunchVeda — A unit of Banega Brand Co.",
-								url: "https://launchveda.com",
-								logo: "https://launchveda.com/logo-full.png",
+								url: "https://www.launchveda.com",
+								logo: "https://www.launchveda.com/logo-full.png",
 								description:
 									"LaunchVeda helps founders launch Perfume, Ayurveda, Cosmetic, Nutraceutical and D2C product brands in India with strategy, formulation direction, manufacturing support, packaging, compliance, website, marketplace and growth execution.",
 								email: "support@launchveda.com",
@@ -673,14 +673,14 @@ export const LaunchFooterSection: React.FC = () => {
 							},
 							{
 								"@type": "LocalBusiness",
-								"@id": "https://launchveda.com/#localbusiness",
+								"@id": "https://www.launchveda.com/#localbusiness",
 								name: "LaunchVeda",
-								url: "https://launchveda.com",
-								image: "https://launchveda.com/background_image.png",
+								url: "https://www.launchveda.com",
+								image: "https://www.launchveda.com/background_image.png",
 								email: "support@launchveda.com",
 								telephone: "+918796300199",
 								parentOrganization: {
-									"@id": "https://launchveda.com/#organization",
+									"@id": "https://www.launchveda.com/#organization",
 								},
 								address: {
 									"@type": "PostalAddress",

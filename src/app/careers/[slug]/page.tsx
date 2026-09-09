@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${job.title} Careers`,
     description: `${job.summary} Explore the ${job.title} opportunity at LaunchVeda.`,
-    alternates: { canonical: `https://launchveda.com/careers/${job.slug}` },
+    alternates: { canonical: `https://www.launchveda.com/careers/${job.slug}` },
     openGraph: {
       title: `${job.title} | Careers at LaunchVeda`,
       description: job.summary,
@@ -55,12 +55,12 @@ export default async function CareerDetailPage({ params }: { params: Promise<{ s
       <SEOManager
         title={`${job.title} Careers at LaunchVeda`}
         description={`${job.summary} Learn about the role, responsibilities and how to apply.`}
-        canonical={`https://launchveda.com/careers/${job.slug}`}
-        ogImage="https://launchveda.com/background_image.png"
+        canonical={`https://www.launchveda.com/careers/${job.slug}`}
+        ogImage="https://www.launchveda.com/background_image.png"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Careers", item: "https://launchveda.com/careers" },
-          { name: job.title, item: `https://launchveda.com/careers/${job.slug}` },
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Careers", item: "https://www.launchveda.com/careers" },
+          { name: job.title, item: `https://www.launchveda.com/careers/${job.slug}` },
         ]}
       />
 

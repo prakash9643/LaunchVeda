@@ -75,7 +75,7 @@ export default function SEOManager({
   canonical,
   ogTitle,
   ogDescription,
-  ogImage = "https://launchveda.com/background_image.png",
+  ogImage = "https://www.launchveda.com/background_image.png",
   ogType = "website",
   twitterCard = "summary_large_image",
   twitterTitle,
@@ -91,7 +91,7 @@ export default function SEOManager({
 }: SEOManagerProps) {
   // Compute site title template "Page Title | LaunchVeda"
   const formattedTitle = title.includes("LaunchVeda") ? title : `${title} | LaunchVeda`;
-  const siteUrl = "https://launchveda.com";
+  const siteUrl = "https://www.launchveda.com";
   const organizationId = `${siteUrl}/#organization`;
   const websiteId = `${siteUrl}/#website`;
   const defaultLogo = `${siteUrl}/logo-full.png`;
@@ -131,9 +131,9 @@ export default function SEOManager({
 
   if (!finalBreadcrumbs || finalBreadcrumbs.length === 0) {
     try {
-      let urlString = canonical || "https://launchveda.com";
+      let urlString = canonical || "https://www.launchveda.com";
       if (!urlString.startsWith("http://") && !urlString.startsWith("https://")) {
-        urlString = `https://launchveda.com${urlString.startsWith("/") ? "" : "/"}${urlString}`;
+        urlString = `https://www.launchveda.com${urlString.startsWith("/") ? "" : "/"}${urlString}`;
       }
       
       const url = new URL(urlString);
@@ -162,7 +162,7 @@ export default function SEOManager({
 
       finalBreadcrumbs = dynamicItems;
     } catch (e) {
-      finalBreadcrumbs = [{ name: "Home", item: "https://launchveda.com" }];
+      finalBreadcrumbs = [{ name: "Home", item: "https://www.launchveda.com" }];
     }
   }
 
@@ -208,7 +208,7 @@ export default function SEOManager({
         "@type": "Organization",
         "@id": organizationId,
         "name": service.providerName || "LaunchVeda",
-        "url": service.providerUrl || "https://launchveda.com",
+        "url": service.providerUrl || "https://www.launchveda.com",
       },
       "areaServed": {
         "@type": "Country",
@@ -238,7 +238,7 @@ export default function SEOManager({
       "author": {
         "@type": "Organization",
         "name": article.authorName || "LaunchVeda",
-        "url": "https://launchveda.com",
+        "url": "https://www.launchveda.com",
       },
       "publisher": {
         "@type": "Organization",

@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="Product Formulation"
         description="Expert product formulation for cosmetics, ayurveda, and nutraceuticals."
-        canonical="https://launchveda.com/product-formulation"
+        canonical="https://www.launchveda.com/product-formulation"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Product Formulation", item: "https://launchveda.com/product-formulation" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Product Formulation", item: "https://www.launchveda.com/product-formulation" }
         ]}
         service={{
           name: "Product Formulation",

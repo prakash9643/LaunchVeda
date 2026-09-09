@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="Marketplace Launch"
         description="Launch successfully on Amazon, Flipkart, and other Indian marketplaces."
-        canonical="https://launchveda.com/marketplace-launch"
+        canonical="https://www.launchveda.com/services/marketplace-launch"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Marketplace Launch", item: "https://launchveda.com/marketplace-launch" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Marketplace Launch", item: "https://www.launchveda.com/services/marketplace-launch" }
         ]}
         service={{
           name: "Marketplace Launch",

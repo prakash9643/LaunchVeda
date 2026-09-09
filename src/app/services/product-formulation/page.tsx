@@ -43,11 +43,11 @@ export default function ProductFormulationPage() {
       <SEOManager
         title="Product Formulation Support for Market-Ready Brands"
         description="LaunchVeda helps founders plan product formulation with category direction, ingredient logic, product format, sampling guidance and manufacturer coordination for Perfume, Ayurveda, Cosmetics and Nutraceutical brands."
-        canonical="https://launchveda.com/services/product-formulation"
+        canonical="https://www.launchveda.com/services/product-formulation"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Services", item: "https://launchveda.com/services" },
-          { name: "Product Formulation", item: "https://launchveda.com/services/product-formulation" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Services", item: "https://www.launchveda.com/services" },
+          { name: "Product Formulation", item: "https://www.launchveda.com/services/product-formulation" }
         ]}
         service={{
           name: "Product Formulation Support Services",

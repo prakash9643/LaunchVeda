@@ -43,11 +43,11 @@ export default function ManufacturingSupportPage() {
       <SEOManager
         title="Manufacturing Support for Product Brands"
         description="LaunchVeda helps founders connect with suitable manufacturing partners and plan production direction for Perfume, Ayurveda, Cosmetics, Nutraceuticals and D2C product brands."
-        canonical="https://launchveda.com/services/manufacturing-support"
+        canonical="https://www.launchveda.com/services/manufacturing-support"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Services", item: "https://launchveda.com/services" },
-          { name: "Manufacturing Support", item: "https://launchveda.com/services/manufacturing-support" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Services", item: "https://www.launchveda.com/services" },
+          { name: "Manufacturing Support", item: "https://www.launchveda.com/services/manufacturing-support" }
         ]}
         service={{
           name: "Manufacturing Support Services for Product Brands",

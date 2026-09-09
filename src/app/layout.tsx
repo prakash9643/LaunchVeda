@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 		title: "LaunchVeda | Turn Ideas Into Brands: Perfume, Cosmetic & Nutraceutical Launch Partner",
 		description:
 			"Launch your Perfume, Ayurveda, Cosmetic, or Nutraceutical brand with our complete ecosystem.",
-		url: "https://launchveda.com",
+		url: "https://www.launchveda.com",
 		siteName: "LaunchVeda",
 		images: [
 			{
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 		images: ["/background_image.png"],
 	},
 	alternates: {
-		canonical: "https://launchveda.com",
+		canonical: "https://www.launchveda.com",
 	},
 	robots: {
 		index: true,

@@ -75,10 +75,10 @@ export default function Page() {
       <SEOManager
         title="Perfume Brand Launch Services in India | LaunchVeda"
         description="LaunchVeda helps founders launch perfume brands in India with fragrance direction, manufacturer support, bottle and packaging planning, compliance, branding, website, marketplace launch and growth strategy."
-        canonical="https://launchveda.com/perfume-brand-launch"
+        canonical="https://www.launchveda.com/perfume-brand-launch"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Perfume Brand Launch", item: "https://launchveda.com/perfume-brand-launch" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Perfume Brand Launch", item: "https://www.launchveda.com/perfume-brand-launch" }
         ]}
         service={{
           name: "Perfume Brand Launch Services in India",

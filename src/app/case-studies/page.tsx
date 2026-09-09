@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="Case Studies"
         description="Explore successful brand launches powered by LaunchVeda."
-        canonical="https://launchveda.com/case-studies"
+        canonical="https://www.launchveda.com/case-studies"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Case Studies", item: "https://launchveda.com/case-studies" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Case Studies", item: "https://www.launchveda.com/case-studies" }
         ]}
         service={{
           name: "Case Studies",

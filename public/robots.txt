@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://launchveda.com/sitemap.xml
-LLMs: https://launchveda.com/llms.txt
+Sitemap: https://www.launchveda.com/sitemap.xml
+LLMs: https://www.launchveda.com/llms.txt

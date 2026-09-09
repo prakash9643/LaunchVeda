@@ -7,9 +7,18 @@ import { jobs } from "../src/app/careers/jobsData";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const BASE_URL = "https://launchveda.com";
+const BASE_URL = "https://www.launchveda.com";
 const APP_DIR = path.join(__dirname, "../src/app");
 const PUBLIC_DIR = path.join(__dirname, "../public");
+const LEGACY_SERVICE_ROUTES = new Set([
+  "ai-growth-and-marketing",
+  "brand-naming-and-identity",
+  "growth-and-marketing",
+  "legal-and-compliance",
+  "marketplace-launch",
+  "packaging-and-labeling",
+  "website-development",
+]);
 
 // Simple recursive function to find all page.tsx files
 function getPageRoutes(dir: string, baseDir = APP_DIR): string[] {
@@ -58,7 +67,7 @@ function generateSitemap() {
   // Ensure we sort routes and filter out duplicates and empty/redundant parts
   const routes = Array.from(new Set(rawRoutes))
     .map(r => r.trim())
-    .filter(r => r !== "api" && !r.includes("[")) // Filter out dynamic routes or API routes if any
+    .filter(r => r !== "api" && !r.includes("[") && !LEGACY_SERVICE_ROUTES.has(r)) // Filter out dynamic routes, API routes, and legacy service routes
     .sort();
   
   const today = new Date().toISOString().split("T")[0];

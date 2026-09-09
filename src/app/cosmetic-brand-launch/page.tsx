@@ -72,10 +72,10 @@ export default function Page() {
       <SEOManager
         title="Cosmetic Brand Launch Services in India | LaunchVeda"
         description="LaunchVeda helps founders launch cosmetic and skincare brands with product strategy, formulation support, packaging, compliance direction, branding, website, marketplace readiness and growth execution."
-        canonical="https://launchveda.com/cosmetic-brand-launch"
+        canonical="https://www.launchveda.com/cosmetic-brand-launch"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Cosmetic Brand Launch", item: "https://launchveda.com/cosmetic-brand-launch" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Cosmetic Brand Launch", item: "https://www.launchveda.com/cosmetic-brand-launch" }
         ]}
         service={{
           name: "Cosmetic Brand Launch Services in India",

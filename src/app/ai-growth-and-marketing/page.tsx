@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="AI Growth & Marketing"
         description="AI-powered marketing and growth strategies for your brand."
-        canonical="https://launchveda.com/ai-growth-and-marketing"
+        canonical="https://www.launchveda.com/services/ai-growth-and-marketing"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "AI Growth & Marketing", item: "https://launchveda.com/ai-growth-and-marketing" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "AI Growth & Marketing", item: "https://www.launchveda.com/services/ai-growth-and-marketing" }
         ]}
         service={{
           name: "AI Growth & Marketing",

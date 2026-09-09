@@ -72,10 +72,10 @@ export default function Page() {
       <SEOManager
         title="Ayurveda Brand Launch Services in India | LaunchVeda"
         description="LaunchVeda helps founders launch Ayurveda brands with product category planning, formulation guidance, manufacturer support, packaging, labeling, compliance direction, marketplace readiness and growth strategy."
-        canonical="https://launchveda.com/ayurveda-brand-launch"
+        canonical="https://www.launchveda.com/ayurveda-brand-launch"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Ayurveda Brand Launch", item: "https://launchveda.com/ayurveda-brand-launch" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Ayurveda Brand Launch", item: "https://www.launchveda.com/ayurveda-brand-launch" }
         ]}
         service={{
           name: "Ayurveda Brand Launch Services in India",

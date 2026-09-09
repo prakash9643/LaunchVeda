@@ -7,14 +7,14 @@ export default function Page() {
       <SEOManager
         title="About LaunchVeda | End-to-End Product Launch Partner in India"
         description="LaunchVeda helps founders launch Perfume, Ayurveda, Cosmetic, Nutraceutical and D2C brands with formulation, manufacturing support, compliance, packaging, marketplace and advanced growth."
-        canonical="https://launchveda.com/about"
+        canonical="https://www.launchveda.com/about"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "About", item: "https://launchveda.com/about" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "About", item: "https://www.launchveda.com/about" }
         ]}
         organization={{
           name: "LaunchVeda",
-          url: "https://launchveda.com",
+          url: "https://www.launchveda.com",
           description: "End-to-End Product Launch Partner in India"
         }}
       />

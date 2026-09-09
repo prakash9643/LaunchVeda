@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="Brand Naming & Identity"
         description="Strategic brand naming and identity design."
-        canonical="https://launchveda.com/brand-naming-and-identity"
+        canonical="https://www.launchveda.com/services/brand-naming-and-identity"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Brand Naming & Identity", item: "https://launchveda.com/brand-naming-and-identity" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Brand Naming & Identity", item: "https://www.launchveda.com/services/brand-naming-and-identity" }
         ]}
         service={{
           name: "Brand Naming & Identity",

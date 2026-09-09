@@ -9,10 +9,10 @@ export default function Page() {
       <SEOManager
         title="Manufacturing Support"
         description="Reliable manufacturing support for your product brand."
-        canonical="https://launchveda.com/manufacturing-support"
+        canonical="https://www.launchveda.com/manufacturing-support"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Manufacturing Support", item: "https://launchveda.com/manufacturing-support" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Manufacturing Support", item: "https://www.launchveda.com/manufacturing-support" }
         ]}
         service={{
           name: "Manufacturing Support",

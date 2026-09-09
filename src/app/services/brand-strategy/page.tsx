@@ -43,11 +43,11 @@ export default function BrandStrategyPage() {
       <SEOManager
         title="Brand Strategy Services for Product Launch"
         description="LaunchVeda provides brand strategy services for Perfume, Ayurveda, Cosmetics, Nutraceutical and D2C brands including positioning, naming, audience mapping, pricing direction and launch roadmap."
-        canonical="https://launchveda.com/services/brand-strategy"
+        canonical="https://www.launchveda.com/services/brand-strategy"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Services", item: "https://launchveda.com/services" },
-          { name: "Brand Strategy", item: "https://launchveda.com/services/brand-strategy" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Services", item: "https://www.launchveda.com/services" },
+          { name: "Brand Strategy", item: "https://www.launchveda.com/services/brand-strategy" }
         ]}
         service={{
           name: "Brand Strategy Services for Product Launch",

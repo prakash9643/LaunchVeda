@@ -81,13 +81,13 @@ export default function Navbar() {
 		{ name: "Brand Strategy", href: "/services/brand-strategy" },
 		{ name: "Product Formulation", href: "/services/product-formulation" },
 		{ name: "Manufacturing Support", href: "/services/manufacturing-support" },
-		{ name: "Packaging & Labeling", href: "/packaging-and-labeling" },
-		{ name: "Legal & Compliance", href: "/legal-and-compliance" },
-		{ name: "Brand Naming & Identity", href: "/brand-naming-and-identity" },
-		{ name: "Website Development", href: "/website-development" },
-		{ name: "Marketplace Launch", href: "/marketplace-launch" },
-		{ name: "Growth & Marketing", href: "/growth-and-marketing" },
-		{ name: "AI Growth & Marketing", href: "/ai-growth-and-marketing" },
+		{ name: "Packaging & Labeling", href: "/services/packaging-and-labeling" },
+		{ name: "Legal & Compliance", href: "/services/legal-and-compliance" },
+		{ name: "Brand Naming & Identity", href: "/services/brand-naming-and-identity" },
+		{ name: "Website Development", href: "/services/website-development" },
+		{ name: "Marketplace Launch", href: "/services/marketplace-launch" },
+		{ name: "Growth & Marketing", href: "/services/growth-and-marketing" },
+		{ name: "AI Growth & Marketing", href: "/services/ai-growth-and-marketing" },
 	];
 
 	const categoryLinks = [

@@ -71,11 +71,11 @@ export default function CareersPage() {
       <SEOManager
         title="Careers at LaunchVeda"
         description="Explore careers at LaunchVeda. Join a collaborative team building product brands through strategy, design, technology and growth."
-        canonical="https://launchveda.com/careers"
-        ogImage="https://launchveda.com/background_image.png"
+        canonical="https://www.launchveda.com/careers"
+        ogImage="https://www.launchveda.com/background_image.png"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Careers", item: "https://launchveda.com/careers" },
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Careers", item: "https://www.launchveda.com/careers" },
         ]}
       />
 

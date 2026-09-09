@@ -72,10 +72,10 @@ export default function Page() {
       <SEOManager
         title="Nutraceutical Brand Launch Services in India | LaunchVeda"
         description="LaunchVeda helps founders launch Nutraceutical and supplement brands with product planning, formulation guidance, manufacturer support, packaging, compliance direction, marketplace readiness, and growth strategy."
-        canonical="https://launchveda.com/nutraceutical-brand-launch"
+        canonical="https://www.launchveda.com/nutraceutical-brand-launch"
         breadcrumb={[
-          { name: "Home", item: "https://launchveda.com" },
-          { name: "Nutraceutical Brand Launch", item: "https://launchveda.com/nutraceutical-brand-launch" }
+          { name: "Home", item: "https://www.launchveda.com" },
+          { name: "Nutraceutical Brand Launch", item: "https://www.launchveda.com/nutraceutical-brand-launch" }
         ]}
         service={{
           name: "Nutraceutical Brand Launch Services in India",

@@ -12,7 +12,7 @@ export default function BlogPage() {
 			<SEOManager
 				title="LaunchVeda Journal | Product Launch Insights"
 				description="Practical product launch insights for perfume, cosmetic, Ayurveda and nutraceutical founders."
-				canonical="https://launchveda.com/blog"
+				canonical="https://www.launchveda.com/blog"
 			/>
 			<div className="bg-[#061033]"><Navbar /></div>
 
