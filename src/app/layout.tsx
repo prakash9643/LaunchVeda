@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "../index.css";
 import FAQSchemaDetector from "../components/FAQSchemaDetector";
 import ScrollToTop from "../components/ui/ScrollToTop";
@@ -70,17 +71,18 @@ export default function RootLayout({
 					fetchPriority="high"
 					media="(min-width: 640px)"
 				/>
-				{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FJLK8NJ6E"></script>
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){window.dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-0FJLK8NJ6E');
-            `,
-					}}
-				/> */}
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=G-LGJZT4W977"
+					strategy="afterInteractive"
+				/>
+				<Script id="google-analytics" strategy="afterInteractive">
+					{`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LGJZT4W977');
+          `}
+				</Script>
 			</head>
 			<body className="antialiased">
 				<noscript>
