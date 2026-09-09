@@ -261,7 +261,7 @@ export const LaunchFooterSection: React.FC = () => {
 
 						<div className="grid grid-cols-4 gap-3 w-fit sm:flex sm:items-center sm:flex-wrap">
 							<SocialIcon
-								href="https://www.instagram.com/launchveda.in/"
+								href="https://www.instagram.com/launchveda"
 								ariaLabel="LaunchVeda Instagram"
 							>
 								<svg
@@ -386,7 +386,7 @@ export const LaunchFooterSection: React.FC = () => {
 									<path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.951-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.367 18.624 0 12.017 0z" />
 								</svg>
 							</SocialIcon>
-							<SocialIcon
+							{/* <SocialIcon
 								href="https://www.behance.net/launchveda"
 								ariaLabel="LaunchVeda Behance"
 							>
@@ -399,7 +399,7 @@ export const LaunchFooterSection: React.FC = () => {
 								>
 									<path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-15.144h6.616c2.596 0 4.714.877 4.714 3.96 0 1.954-1.196 3.018-2.257 3.424 1.341.258 2.766 1.455 2.766 3.864 0 3.327-2.463 3.896-5.373 3.896zm-3.864-12.784v4.44h2.511c1.233 0 2.18-.328 2.18-2.203 0-1.733-.949-2.237-2.145-2.237h-2.546zm0 6.64v4.619h2.898c1.554 0 2.502-.456 2.502-2.33 0-2.03-1.04-2.289-2.585-2.289h-2.815z" />
 								</svg>
-							</SocialIcon>
+							</SocialIcon> */}
 							<SocialIcon
 								href="https://www.youtube.com/@LaunchVeda"
 								ariaLabel="LaunchVeda YouTube"
@@ -576,7 +576,7 @@ export const LaunchFooterSection: React.FC = () => {
 									<MapPin className="w-4 h-4" />
 								</div>
 								<a
-									href="https://maps.app.goo.gl/GHhdqJZHcLLQa3R37"
+									href="https://maps.app.goo.gl/nMU5vHVqF1EPAZXU8"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-slate-700 font-medium text-[14px] leading-relaxed hover:text-indigo-600 transition-colors"
@@ -601,7 +601,7 @@ export const LaunchFooterSection: React.FC = () => {
 					</p>
 
 					<p className="text-slate-500 font-medium text-[13px]">
-						© 2024 LaunchVeda. All rights reserved.
+						© 2026 LaunchVeda. All rights reserved.
 					</p>
 
 					<div className="flex flex-wrap items-center justify-center gap-y-2 gap-x-3 text-[13px] text-slate-500 font-medium md:justify-end">
