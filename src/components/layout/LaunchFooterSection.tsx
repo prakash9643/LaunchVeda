@@ -531,10 +531,17 @@ export const LaunchFooterSection: React.FC = () => {
 							<ul className="space-y-3.5">
 								{[
 									{ label: "About", href: "/about" },
-									{ label: "Careers", href: "/careers" },
+									{
+										label: "Careers",
+										href: "/careers",
+									},
 									{
 										label: "Process",
 										href: "/process",
+									},
+									{
+										label: "Case Studies",
+										href: "/case-studies",
 									},
 									{
 										label: "Contact",
@@ -640,7 +647,7 @@ export const LaunchFooterSection: React.FC = () => {
 								"@id": "https://www.launchveda.com/#organization",
 								name: "LaunchVeda",
 								legalName:
-									"LaunchVeda — A unit of Banega Brand Co.",
+									"LaunchVeda — India's No.1 Product Launch Ecosystem",
 								url: "https://www.launchveda.com",
 								logo: "https://www.launchveda.com/logo-full.png",
 								description:

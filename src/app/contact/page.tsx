@@ -178,8 +178,8 @@ export default function ContactPage() {
 	return (
 		<div className="bg-slate-50 min-h-screen flex flex-col font-sans selection:bg-purple-200 text-slate-800">
 			<SEOManager
-				title="Contact Launch Veda | India’s No.1 Product Launch Company"
-				description="Contact Launch Veda for end-to-end product launch support in India. Get expert guidance for Perfume, Cosmetic, Ayurveda, and Nutraceutical brand launches."
+				title="Contact LaunchVeda | Product Launch Company India"
+				description="Contact LaunchVeda to discuss your product or brand launch. Get expert guidance on strategy, formulation, branding, compliance, marketing and growth."
 				canonical="https://www.launchveda.com/contact"
 				breadcrumb={[
 					{ name: "Home", item: "https://www.launchveda.com" },
@@ -416,7 +416,7 @@ export default function ContactPage() {
 								</p>
 							</div>
 							<a
-								href="https://maps.app.goo.gl/nMU5vHVqF1EPAZXU8"
+								href="https://maps.app.goo.gl/GVtsaP5F8AbJAhME7"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="w-full h-11 rounded-lg border border-slate-200 bg-white hover:border-orange-300 text-slate-700 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 mt-6 transition-all cursor-pointer shadow-sm"
@@ -1044,7 +1044,7 @@ export default function ContactPage() {
 						{/* Map iframe right/bottom */}
 						<div className="lg:col-span-7 h-[300px] sm:h-[380px] w-full rounded-2xl overflow-hidden border border-slate-200/60 shadow-sm relative">
 							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.27641716748!2d77.43274537613618!3d28.591483285942438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef933c1b31f3%3A0x48f5d76fc56b1388!2sGOLDEN%20I!5e0!3m2!1sen!2sin!4v1783145767936!5m2!1sen!2sin"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.3084051904984!2d77.43057787449227!3d28.590523385988995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4538701e2776d9%3A0xea9e95c8a0f961a8!2sLaunchVeda!5e0!3m2!1sen!2sin!4v1789638978492!5m2!1sen!2sin"
 								width="100%"
 								height="100%"
 								style={{ border: 0 }}

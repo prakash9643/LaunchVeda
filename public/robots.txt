@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.launchveda.com/sitemap.xml
-LLMs: https://www.launchveda.com/llms.txt

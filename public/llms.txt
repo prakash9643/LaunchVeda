@@ -5,7 +5,7 @@ LaunchVeda helps founders turn product ideas into market-ready brands in India. 
 ## Primary Entity
 
 - Name: LaunchVeda
-- Legal context: A unit of Banega Brand Co.
+- Legal context: LaunchVeda Marketing CO.
 - Website: https://www.launchveda.com
 - Country served: India
 - Email: support@launchveda.com
